@@ -24,9 +24,6 @@ var app2 = new Vue({
 var app3 = new Vue({
     el:'#app3',
     data:{
-        colors:[
-            {item:'Red'},
-            {item:'Blue'}
-        ]
+        colors:["Red","Blue"]
     }
 })
