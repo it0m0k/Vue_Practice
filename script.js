@@ -12,7 +12,7 @@ var app  = new Vue({
     }
 })
 
-console.log(app.message)
+console.log(app.text)
 
 var app2 = new Vue({
     el:'#app2',
@@ -27,3 +27,7 @@ var app3 = new Vue({
         colors:["Red","Blue"]
     }
 })
+
+var user = {name:'Tomoki',age:23,tel:'000-000'}
+user.country = '日本'
+console.log(user)

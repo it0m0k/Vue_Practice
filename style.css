@@ -1,12 +1,14 @@
-body {
-    color: #F99;
-    padding: 5px 16px;
-    font-size: 14pt;
-    line-height: 150%;
-  }
   h1 {
     font-size: 24pt;
+    color: #F99;
+    padding: 5px 16px;
+    line-height: 150%; 
+    text-align: center
   }
   p {
-    font-size: 18pt;
+    font-size: 12pt;
+  }
+
+  #app3{
+    font-size: 20pt;
   }
