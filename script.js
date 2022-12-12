@@ -31,3 +31,17 @@ var app3 = new Vue({
 var user = {name:'Tomoki',age:23,tel:'000-000'}
 user.country = '日本'
 console.log(user)
+
+var app  = new Vue({
+    el:'#track-text',
+    data(){
+        return{
+            text: ""
+        }
+    },
+    methods:{
+        PUSH:function(){
+            this.text = "hello track"
+        }
+    }
+})
